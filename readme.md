@@ -1,22 +1,5 @@
 # Local AI Workstation Stack
 
-A robust, GPU-accelerated local AI workspace running **Ollama** and **Open WebUI** containerized with Docker on Ubuntu Server. Optimized for high-performance coding models and heavy-context LLM tasks.
-
----
-
-## 🖥️ Hardware & Environment Specifications
-
-- **Workstation:** HP Z6 G5 Workstation
-- **OS:** Ubuntu Server 24.04 LTS
-- **GPU:** NVIDIA RTX 6000 (24 GB VRAM)
-- **RAM:** 256 GB System Memory
-- **Core Stack:** Docker Engine, NVIDIA Container Toolkit, Ollama, Open WebUI
-- **Primary Model:** `qwen2.5-coder:32b`
-
----
-
-## 🚀 Quick Start
-
 ### 1. Prerequisites
 
 Ensure you have the latest NVIDIA drivers and the **NVIDIA Container Toolkit** installed and verified:
